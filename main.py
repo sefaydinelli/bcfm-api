@@ -12,5 +12,11 @@ def who_am_i():
     lastname = request.args.get("lastname")
     return jsonify(firstname = firstname, lastname = lastname)
 
+@app.route("/alert", methods=['POST'])
+def alert():
+    if request.method == 'POST':
+        request_data = request.get_json()
+        print(request_data)
+
 if __name__ == "__main__":
     app.run()
