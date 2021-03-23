@@ -13,7 +13,7 @@ Then add "WEBHOOK_URL" variable :
 ```
 WEBHOOK_URL = "Your url at here!"
 ```
-Then save ** (CTRL+X) ** and close.
+Then save **(CTRL+X)** and close.
 
 ### Containerization
 
