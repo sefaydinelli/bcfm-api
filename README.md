@@ -4,29 +4,30 @@
 
 ### Setting Up Environment Variables
 
-For set your custom webhook url to /alert endpoint, create new file called ".env" in project directory.
+- For set your custom webhook url to /alert endpoint, create new file called ".env" in project directory.
 In command promt :
 ```
 nano .env
 ```
-Then add "WEBHOOK_URL" variable :
+- Then add "WEBHOOK_URL" variable :
 ```
 WEBHOOK_URL = "Your url at here!"
 ```
-Then save **(CTRL+X)** and close.
+- Then save and close. (CTRL+X)
+
 
 ### Containerization
 
-We can build Docker images.
+- We can build Docker images.
 
-In project directory : 
+- In project directory : 
 ```
 docker-compose build
 ```
 
-We can run that image with following command :
+- We can run that image with following command :
 ```
 docker-compose up
 ```
 
-After that, project will be launching at https://localhost:5000 .
+- After that, project will be launching at https://localhost:5000 .
